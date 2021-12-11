@@ -21,9 +21,11 @@ class WordListAdapter : ListAdapter<Word, WordListAdapter.WordViewHolder>(WordsC
 
     class WordViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val wordItemView: TextView = itemView.findViewById(R.id.textView)
+        private val wordItemView2: TextView = itemView.findViewById(R.id.textView2)
 
         fun bind(text: String?) {
             wordItemView.text = text
+            wordItemView2.text = text
         }
 
         companion object {

@@ -4,5 +4,8 @@
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Word not saved because it is empty.</string>
     <string name="add_word">Add word</string>
+    <string name="hint_meaning">Meaning…</string>
+    <string name="hint_antonym">Antonym…</string>
+    <string name="hint_synonym">Synonym…</string>
 
 </resources>
